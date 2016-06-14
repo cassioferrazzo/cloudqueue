@@ -18,6 +18,10 @@ div{
   width: 500px;
   border-radius: 0px;
   margin-left: calc(50% - 250px);
+  background-color: rgba(255,255,255, 0.5);
+}
+#subtitulo{
+  background-color: rgba(255,255,255, 0.5);
 }
 #conteudo{
   width: 85%;
@@ -36,12 +40,12 @@ div{
 .navbar-default .navbar-nav > li.active:hover > a:focus,
 .navbar-default .navbar-nav > li:hover > a:focus,
 .navbar-default .navbar-nav > li:focus > a:focus {
-  background-color: rgb(48,99,119);
+  background-color: rgba(48,99,119,0.5);
   color: #fff;
 }
 #navbar{
   //background-color: rgb(219,244,255);
-  background-color: rgb(66,86,94);
+  background-color: rgba(66,86,94,0.5);
   margin: 0 px;
   font-size: 16;
   border: 0;
@@ -76,7 +80,7 @@ h2{
   max-height: 200px;
 }
 #contato{
-    padding-top: 50px;
+    padding-top: 110px;
 }
 
 #contato .box {
