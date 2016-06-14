@@ -149,26 +149,26 @@
                     <div class="box last">
                         <div class="row">
                             <div class="col-sm-6">
-                                <h1>Entre em contato</h1>
+                                <h2>Entre em contato</h2>
                                 <p>Por favor entre em contato conosco caso nosso produto disperour seu interesse.</p>
                                 <div class="status alert alert-success" style="display: none"></div>
-                                <form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="sendemail.php" role="form">
+                                <form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="salvarmensagem.php" role="form">
                                     <div class="row">
                                         <div class="col-sm-6">
                                             <div class="form-group">
-                                                <input type="text" class="form-control" required="required" placeholder="Nome">
+                                                <input type="text" name="nome" class="form-control" required="required" placeholder="Nome" maxlength="100">
                                             </div>
                                         </div>
                                         <div class="col-sm-6">
                                             <div class="form-group">
-                                                <input type="text" class="form-control" required="required" placeholder="E-Mail">
+                                                <input type="email" name="email" class="form-control" required="required" placeholder="E-Mail" maxlength="100">
                                             </div>
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="col-sm-12">
                                             <div class="form-group">
-                                                <textarea name="message" id="message" required="required" class="form-control" rows="8" placeholder="Mensagem"></textarea>
+                                                <textarea name="mensagem" id="mensagem" required="required" class="form-control" rows="8" placeholder="Mensagem" maxlength="500"></textarea>
                                             </div>
                                             <div class="form-group">
                                                 <button type="submit" class="btn btn-danger btn-lg">Enviar</button>
@@ -178,7 +178,7 @@
                                 </form>
                             </div><!--/.col-sm-6-->
                             <div class="col-sm-6">
-                                <h2>Nosso endereço (Fictício)</h2>
+                                <h2>Nosso endereço</h2>
                                 <div class="row">
                                     <div class="col-md-6">
                                         <address>
@@ -213,6 +213,7 @@
             </div>
         </div>
     </div>
+    <h3>*Todas as informações contidas nesta página são ficticias. Site desenvolvido com o intuito didático.</h3>
 </div>
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>

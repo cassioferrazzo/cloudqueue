@@ -101,7 +101,7 @@ h2{
 #contato .box input[type="text"],
 #contato .box input[type="email"],
 #contato .box textarea {
-    //background-color: #111;
+    color: #fff;
     background-color: rgb(94,94,94);
     border: 0;
     -webkit-transition: 300ms;
