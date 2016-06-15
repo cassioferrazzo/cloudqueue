@@ -12,5 +12,5 @@ try {
       die("Não foi possível salvar sua mensagem.");
   }
 } catch (Exception $e) {
-  die($e->message);
+  die($e->getMessage());
 }
